@@ -12,3 +12,24 @@ BEGIN
     WHERE column_name = value;
 END
 $func$ LANGUAGE plpgsql;
+
+It is possible to create functions which can concat texts:
+
+CREATE FUNCTION concat_func(p_firstname VARCHAR(50), p_surname VARCHAR(50))
+RETURNS VARCHAR(100)
+BEGIN
+    DECLARE result VARCHAR(100);
+    SET result = CONCAT(p_firstname, ' ', p_surname);
+    RETURN result;
+END;
+
+
+or part of texts:
+
+CREATE FUNCTION concat_part(p_text VARCHAR(100), p_begin INT, p_length INT)
+RETURNS VARCHAR(100)
+BEGIN
+    DECLARE result VARCHAR(100);
+    SET result = SUBSTRING(p_text, p_begin, p_length);
+    RETURN result;
+END;
