@@ -1,10 +1,11 @@
 # SQL_repository
 This repository contains the SQL statements that I use the most in my day-to-day work.
-https://img.freepik.com/free-vector/hand-drawn-flat-design-sql-illustration_23-2149243381.jpg?size=626&ext=jpg
 
 
 
 
+
+![6504666](https://github.com/Abhimanyukumar-lab/SQL_repository/assets/58160340/7e60ba74-a401-4a36-8488-3e1f4cf4b22d)
 
 
 
