@@ -6,7 +6,7 @@ This repository contains the SQL statements that I use the most in my day-to-day
 
 
 
-![Sql_data_base_with_logo](https://github.com/mssmmnk/SQL_repository/assets/116667040/b9633cfa-fbe3-4781-be37-00fdd7b144f4)
+
 
 
 SQL is the most used language for handling relational databases, it has a relatively simple syntax and many features.
